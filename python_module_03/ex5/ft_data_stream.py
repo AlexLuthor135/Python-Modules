@@ -32,7 +32,7 @@ if __name__ == "__main__":
         event = next(events)
         print(f'Event {counter}: Player {event[0]} did action {event[1]}')
         counter += 1
-    for i in range(10):
+    for _ in range(10):
         generated_list.append(next(events))
     print(f'Built list of 10 events: {generated_list}')
     events = consume_event(generated_list)
