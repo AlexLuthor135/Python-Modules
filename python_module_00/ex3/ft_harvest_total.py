@@ -1,5 +1,5 @@
 def ft_harvest_total() -> None:
-    numbers = []
+    numbers: list[int] = []
     while len(numbers) != 3:
         try:
             numbers.append(int(input(f"Day {len(numbers) + 1} harvest: ")))

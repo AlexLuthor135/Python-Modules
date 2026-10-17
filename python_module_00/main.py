@@ -129,6 +129,7 @@ def main():
     else:
         print("❌ Invalid choice! Please enter 0, 1, 2, 3, 4, 5, 6, 7, or a")
 
+
 # This line means: "If someone runs this file directly, call main()"
 # You don't need to understand this yet, just know it makes the program start
 if __name__ == "__main__":
